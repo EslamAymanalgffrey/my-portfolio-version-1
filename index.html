@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ============================================================
+     HEAD - إعدادات الصفحة والمكتبات الخارجية
+     ============================================================ -->
+
+<head>
+
+    <!-- إعدادات الترميز واستجابة الشاشات المختلفة -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- عنوان التبويب في المتصفح -->
+    <title>Eslam Ayman</title>
+
+    <!-- مكتبة Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--   bootstrap + ملف الـ CSS الخاص بالموقع -->
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<!-- ============================================================
+     BODY - محتوى الصفحة كاملاً
+     ============================================================ -->
+
+<body>
+
+    <!-- ============================================================
+         HEADER - الترويسة الرئيسية وشريط التنقل والمقدمة
+         ============================================================ -->
+    <header id="home">
+
+        <!-- شريط التنقل العلوي الثابت -->
+        <div class="navbar">
+            <nav>
+                <!-- الشعار / اسم صاحب الموقع -->
+                <a href="#home" id="logo">Eslam Ayman</a>
+
+                <!-- قائمة روابط التنقل -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- قسم المقدمة - النص والصورة الشخصية -->
+        <div class="header--content">
+
+            <!-- النص التعريفي -->
+            <div class="content--text">
+                <p><span class="textprimary">Hi There , I'm</span></p>
+                <h1>Eslam Ayman</h1>
+                <p class="title">fullStack Developer</p>
+
+                <!-- أيقونات التواصل الاجتماعي -->
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/eslam-ayman77" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/islamayman_4" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/EslamAymanalgffrey" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <!-- زرار الانتقال لقسم About -->
+                <a href="#about" class="btn-primary">
+                    About Me <i class="fa-solid fa-angles-down"></i>
+                </a>
+            </div>
+
+            <!-- الصورة الشخصية -->
+            <img src="img/profile-pic__1_-removebg-preview.png" alt="Eslam Ayman">
+
+        </div>
+    </header>
+    <!-- ============================================================
+         نهاية HEADER
+         ============================================================ -->
+
+
+    <!-- ============================================================
+         MAIN - المحتوى الرئيسي للصفحة
+         ============================================================ -->
+    <main>
+
+        <!-- ============================================================
+             ABOUT - قسم التعريف بصاحب الموقع
+             ============================================================ -->
+        <section id="about">
+            <div class="container">
+
+                <!-- عنوان القسم -->
+                <h2>About Me</h2>
+                <hr>
+
+                <!-- محتوى القسم - عمودين: نص تعريفي + بيانات شخصية -->
+                <div class="about--content">
+
+                    <!-- العمود الأيسر - النص التعريفي -->
+                    <div class="left--col">
+                        <h3>I'm <span class="textprimary">Eslam Ayman ,</span> fullStack Developer</h3>
+                        <p>
+                            I'm Eslam Ayman, a Software Engineering student at Assiut University with a strong passion for Full Stack Web Development and creating modern digital solutions. I specialize in HTML, CSS, JavaScript, and MySQL, along with other technologies related to Full Stack development. I focus on building responsive, user-friendly, and high-performance web applications while continuously improving my skills in software engineering, problem solving, and modern development practices.
+                        </p>
+                    </div>
+
+                    <!-- العمود الأيمن - البيانات الشخصية -->
+                    <div class="right--col">
+                        <p><b>Age :</b> 20</p>
+                        <p><b>Email :</b> contact@eslamjr09.com</p>
+                        <p><b>place :</b> Assiut - Egypt</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================
+             نهاية ABOUT
+             ============================================================ -->
+
+
+        <!-- ============================================================
+             SKILLS - قسم المهارات والتقنيات المستخدمة
+             ============================================================ -->
+        <section id="skills">
+            <div class="container">
+
+                <!-- عنوان القسم -->
+                <h2>
+                    <i class="fa-solid fa-code"></i>
+                    Skills & <span class="textprimary">Abilities</span>
+                </h2>
+                <hr>
+
+                <!-- شبكة المهارات -->
+                <div class="skills--content">
+                    <div class="row">
+
+                        <!-- مهارة: HTML -->
+                        <div class="item">
+                            <img src="img/html.webp" alt="html">
+                            <p>HTML</p>
+                        </div>
+
+                        <!-- مهارة: CSS -->
+                        <div class="item">
+                            <img src="img/css.jpg" alt="css">
+                            <p>CSS</p>
+                        </div>
+
+                        <!-- مهارة: C++ -->
+                        <div class="item">
+                            <img src="img/c++.png" alt="c++">
+                            <p>C++</p>
+                        </div>
+
+                        <!-- مهارة: Python -->
+                        <div class="item">
+                            <img src="img/python.png" alt="python">
+                            <p>Python</p>
+                        </div>
+
+                        <!-- مهارة: Github -->
+                        <div class="item">
+                            <img src="img/github.png" alt="github">
+                            <p>Github</p>
+                        </div>
+
+                        <!-- مهارة: Node.js -->
+                        <div class="item">
+                            <img src="img/nodejs.png" alt="nodejs">
+                            <p>Nodejs</p>
+                        </div>
+
+                        <!-- مهارة: React -->
+                        <div class="item">
+                            <img src="img/react.png" alt="react">
+                            <p>React</p>
+                        </div>
+
+                        <!-- مهارة: JavaScript -->
+                        <div class="item">
+                            <img src="img/javascrpit.jpg" alt="javascript">
+                            <p>Javascript</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================
+             نهاية SKILLS
+             ============================================================ -->
+
+
+        <!-- ============================================================
+             SERVICES - قسم الخدمات المقدمة
+             ============================================================ -->
+        <section id="services">
+            <div class="container">
+
+                <!-- عنوان القسم -->
+                <h2>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    My <span class="textprimary">Services</span>
+                </h2>
+                <hr>
+
+                <!-- شبكة الخدمات -->
+                <div class="row">
+
+                    <!-- خدمة: تطوير المواقع -->
+                    <div class="item">
+                        <img src="img/web development.png" alt="web development">
+                        <h3>Web Development</h3>
+                        <p>Building fast, responsive, and modern websites with clean design and smooth user experience.
+                        </p>
+                    </div>
+
+                    <!-- خدمة: مونتاج الفيديو -->
+                    <div class="item">
+                        <img src="img/Video Editing.jpg" alt="Video Editing">
+                        <h3>Video Editing</h3>
+                        <p>Creating high-quality video edits with professional transitions, effects, and cinematic
+                            storytelling.</p>
+                    </div>
+
+                    <!-- خدمة: تطوير الواجهات -->
+                    <div class="item">
+                        <img src="img/interfaces..png" alt="Frontend">
+                        <h3>Frontend Development</h3>
+                        <p>Designing interactive and visually appealing user interfaces using modern frontend
+                            technologies.</p>
+                    </div>
+
+                    <!-- خدمة: تطوير الباك-إند -->
+                    <div class="item">
+                        <img src="img/back.png" alt="Backend">
+                        <h3>Backend Development</h3>
+                        <p>Developing secure and scalable server-side systems, APIs, and database solutions.</p>
+                    </div>
+
+                    <!-- خدمة: الدعم الفني -->
+                    <div class="item">
+                        <img src="img/tech support.png" alt="Support">
+                        <h3>Technical Support</h3>
+                        <p>Providing reliable technical assistance, troubleshooting, and system maintenance solutions.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <!-- ============================================================
+             نهاية SERVICES
+             ============================================================ -->
+
+
+        <!-- ============================================================
+             PORTFOLIO - قسم أعمال ومشاريع صاحب الموقع
+             ============================================================ -->
+        <section id="portfolio">
+            <div class="container">
+
+                <!-- عنوان القسم -->
+                <h2>
+                    <i class="fa-solid fa-desktop"></i>
+                    My <span class="textprimary">portfolio</span>
+                </h2>
+                <hr>
+
+                <!-- شبكة المشاريع -->
+                <div class="row">
+
+                    <!-- مشروع 1 -->
+                    <div class="item">
+                        <img src="img/v.png" alt="V-super">
+                        <div class="item--content">
+                            <h3>V super Landing Page</h3>
+                            <a href="https://eslamaymanalgffrey.github.io/V-super-Landing-Page/" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 2 -->
+                    <div class="item">
+                        <img src="img/res.jpg" alt="Coming Soon">
+                        <div class="item--content">
+                            <h3>Coming Soon</h3>
+                            <p>New project will be added soon.</p>
+                            <a href="#">Coming Soon</a>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 3 -->
+                    <div class="item">
+                        <img src="img/res.jpg" alt="Coming Soon">
+                        <div class="item--content">
+                            <h3>Coming Soon</h3>
+                            <p>New project will be added soon.</p>
+                            <a href="#">Coming Soon</a>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 4 -->
+                    <div class="item">
+                        <img src="img/res.jpg" alt="Coming Soon">
+                        <div class="item--content">
+                            <h3>Coming Soon</h3>
+                            <p>New project will be added soon.</p>
+                            <a href="#">Coming Soon</a>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 5 -->
+                    <div class="item">
+                        <img src="img/res.jpg" alt="Coming Soon">
+                        <div class="item--content">
+                            <h3>Coming Soon</h3>
+                            <p>New project will be added soon.</p>
+                            <a href="#">Coming Soon</a>
+                        </div>
+                    </div>
+
+                    <!-- مشروع 6 -->
+                    <div class="item">
+                        <img src="img/res.jpg" alt="Coming Soon">
+                        <div class="item--content">
+                            <h3>Coming Soon</h3>
+                            <p>New project will be added soon.</p>
+                            <a href="#">Coming Soon</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================
+             نهاية PORTFOLIO
+             ============================================================ -->
+
+
+        <!-- ============================================================
+             CONTACT - قسم التواصل وإرسال الرسائل
+             ============================================================ -->
+        <section id="contact">
+            <div class="container">
+
+                <!-- عنوان القسم -->
+                <h2>
+                    <i class="fa-solid fa-headset"></i>Get in<span class="textprimary"> Touch</span>
+                </h2>
+                <hr>
+
+                <!-- محتوى القسم - صورة + فورم التواصل -->
+                <div class="row">
+
+                    <!-- صورة جانبية تزيينية -->
+                    <img src="img/peogggggggggg.png" alt="Contact Me">
+
+                    <!-- فورم الإرسال عبر formsubmit -->
+                    <form action="https://formsubmit.co/contact@eslamjr09.com" method="POST">
+
+                        <!-- حقل الاسم -->
+                        <input type="text" name="name" placeholder="Name" required>
+
+                        <!-- حقل الإيميل -->
+                        <input type="email" name="email" placeholder="Email" required>
+
+                        <!-- حقل الرسالة -->
+                        <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        <!-- زرار الإرسال -->
+                        <button type="submit" class="btn-primary">send</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ============================================================
+             نهاية CONTACT
+             ============================================================ -->
+
+    </main>
+    <!-- ============================================================
+         نهاية MAIN
+         ============================================================ -->
+
+
+    <!-- ============================================================
+         FOOTER - ذيل الصفحة
+         ============================================================ -->
+    <footer id="footer">
+        <div class="container">
+
+            <!-- أعمدة الفوتر الأربعة -->
+            <div class="footer-content">
+
+                <!-- عمود: نبذة سريعة -->
+                <div class="footer-col">
+                    <h3>Eslam Ayman</h3>
+                    <p>Full Stack Developer passionate about building modern and scalable web applications.</p>
+                </div>
+
+                <!-- عمود: روابط التنقل السريع -->
+                <div class="footer-col">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+
+                <!-- عمود: بيانات التواصل -->
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>Email: contact@eslamjr09.com</p>
+                    <p>Location: Egypt</p>
+                </div>
+
+                <!-- عمود: أيقونات السوشيال ميديا -->
+                <div class="footer-col">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- الشريط السفلي - حقوق النشر -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eslam Ayman | All Rights Reserved</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ============================================================
+         نهاية FOOTER
+    ============================================================ -->
+
+</body>
+
+</html>
