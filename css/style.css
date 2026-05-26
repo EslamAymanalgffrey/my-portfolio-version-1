@@ -618,3 +618,146 @@
        font-size: 13px;
        color: #aaa;
    }
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    /* الهيدر */
+    header .header--content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 8rem;
+    }
+
+    header .header--content img {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .header--content .content--text {
+        margin-bottom: 2rem;
+    }
+
+    /* الناف بار */
+    header .navbar nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header .navbar nav ul {
+        flex-wrap: wrap;
+    }
+
+    /* About */
+    #about .about--content {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    /* Skills */
+    #skills .skills--content .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Services */
+    #services .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Contact */
+    #contact .row {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #contact .container img {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* العنوان الرئيسي */
+    #home .header--content h1 {
+        font-size: 38px;
+    }
+
+    /* النصوص */
+    #home .header--content .title,
+    #home .header--content p span {
+        font-size: 18px;
+    }
+
+    /* الروابط */
+    header .navbar nav ul a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+    /* Skills */
+    #skills .skills--content .row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Services */
+    #services .row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Portfolio */
+    #portfolio .row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact */
+    #contact .row {
+        padding: 1.5rem;
+    }
+
+    /* صورة الهيدر */
+    header .header--content img {
+        max-width: 220px;
+    }
+
+    /* Titles */
+    #about h2,
+    #skills h2,
+    #services h2,
+    #portfolio h2,
+    #contact h2 {
+        font-size: 30px;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    header .navbar nav {
+        padding: 1rem;
+    }
+
+    #home .header--content {
+        padding: 7rem 1rem 2rem;
+    }
+
+    #home .header--content h1 {
+        font-size: 30px;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    #portfolio .row .item img {
+        height: 200px;
+    }
+}
